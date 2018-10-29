@@ -26,17 +26,18 @@ n = 12.345;
 // *********************************
 
 // B) string:
-//must be quoted with "" (Double quotes) or  '' (Single quotes)  or  `` (Backticks)
+//must be quoted with "" (Double quotes) or  '' (Single quotes) 
+// or  `` (Backticks)
 let str = "Hello";
 let str2 = 'Single quotes are ok too';
 
 // use of Backticks
-// backticks is powerfull for create strings with embed Variables
+// backticks is powerful for create strings with embed Variables
 
 // Please, please, please learn to use this
 let phrase = `can embed ${str}`;
 
-// other example of usin backticks
+// other example of using backticks
 let name = "Felipe";
 let course = "JS Course";
 
@@ -61,7 +62,7 @@ alert( isGreater ); // true (the comparison result is "yes")
 
 // D) null:javascript.info says:
 // The special null value does not belong to any type of those described above.
-let age = null; //example of null value asignation
+let age = null; //example of null value assignation
 
 // *********************************
 
@@ -99,15 +100,14 @@ alert(x); // shows "undefined"
   The call to typeof x returns a string with the type name:
 */
 
-typeof undefined // "undefined"
-typeof 0 // "number"
-typeof true // "boolean"
-typeof "foo" // "string"
-typeof Symbol("id") // "symbol"
-typeof Math // "object"
-typeof null // "object"
-
-typeof alert // "function"
+typeof undefined; // "undefined"
+typeof 0; // "number"
+typeof true; // "boolean"
+typeof "foo"; // "string"
+typeof Symbol("id");  // "symbol"
+typeof Math; // "object"
+typeof null; // "object"
+typeof alert; // "function"
 
 // checking typeof (validation example)
 if (typeof 25 === 'number') {

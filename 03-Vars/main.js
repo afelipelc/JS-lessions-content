@@ -14,7 +14,7 @@
   read: https://javascript.info/strict-mode  
 */
 
-// variable declaration sintax:   let varName;
+// variable declaration syntax:   let varName;
 // use "let" keyword for vars declaration, read: https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/let
 // example:   
 // let name;
@@ -33,7 +33,7 @@ message = "Welcome to JS vars!";
 console.log("name: ", name);
 console.log(message);
 
-// use + operator for concat or stringVar.concat(string1, string2, ...)
+// use + operator for concat or stringVar.concat(string1, string2, ...);
 alert("Hello " + name + ", " + message);
 console.log( name.concat(", ", message));
 
@@ -69,4 +69,3 @@ console.log( name.concat(", ", message));
   For example, words let, class, return, function are reserved.
 */
 
- 
